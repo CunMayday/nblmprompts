@@ -84,7 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
             <div class="item-info">
-                <span class="item-collection">${collectionLabel}</span>
                 <h3 class="item-title">${item.title}</h3>
                 <div class="item-tags">
                     ${item.tags.slice(0, 3).map(tag => `<span class="item-tag">${tag}</span>`).join('')}
@@ -117,7 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
         modalBody.innerHTML = `
             <img src="${item.imageUrl}" alt="${item.title}" class="modal-image">
             <h2 class="modal-title">${item.title}</h2>
-            <span class="modal-collection">${collectionLabel}</span>
             
             <div class="modal-section">
                 <h3 class="modal-section-title">Design Categories</h3>
