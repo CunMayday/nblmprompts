@@ -80,6 +80,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return a.originalIndex - b.originalIndex;
         })
         .map(entry => entry.item);
+    const numberedStyles = sortedStyles.map((item, index) => ({
+        ...item,
+        title: `${index + 1}. ${item.title}`
+    }));
 
     // Collection labels mapping
     const collectionLabels = {
@@ -106,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderGallery() {
         galleryGrid.innerHTML = '';
         
-        sortedStyles.forEach((item, index) => {
+        numberedStyles.forEach((item, index) => {
             const shouldShow = currentFilter === 'all' || item.collection === currentFilter;
             const card = createGalleryCard(item, index);
             
@@ -283,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let visibleCount = 0;
         
         items.forEach((item, index) => {
-            const itemData = sortedStyles[index];
+            const itemData = numberedStyles[index];
             const matchesFilter = currentFilter === 'all' || 
                                 (currentFilter === 'set2' ? 
                                     (itemData.collection === 'set2' || itemData.collection === 'set1-extended' || itemData.collection === 'set2-extended') : 
@@ -335,17 +339,17 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (countElement) {
                 if (collection === 'all') {
-                    countElement.textContent = sortedStyles.length;
+                    countElement.textContent = numberedStyles.length;
                 } else if (collection === 'set2') {
                     // Combine set2 and extended sets for Practical Set
-                    const count = sortedStyles.filter(item => 
+                    const count = numberedStyles.filter(item => 
                         item.collection === 'set2' || 
                         item.collection === 'set1-extended' || 
                         item.collection === 'set2-extended'
                     ).length;
                     countElement.textContent = count;
                 } else {
-                    const count = sortedStyles.filter(item => item.collection === collection).length;
+                    const count = numberedStyles.filter(item => item.collection === collection).length;
                     countElement.textContent = count;
                 }
             }
@@ -517,5 +521,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log('%c🎨 NotebookLM Infographics Showcase', 'color: #6366f1; font-size: 20px; font-weight: bold;');
     console.log('%cCurated by Paolo Cortez', 'color: #ec4899; font-size: 14px;');
-    console.log(`%c${sortedStyles.length} design styles loaded successfully!`, 'color: #f59e0b; font-size: 12px;');
+    console.log(`%c${numberedStyles.length} design styles loaded successfully!`, 'color: #f59e0b; font-size: 12px;');
 });
