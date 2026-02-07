@@ -11,6 +11,76 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentFilter = 'all';
     let searchQuery = '';
 
+    const prioritizedTitles = [
+        'Educational Sketch-Note (Hand-Drawn)',
+        'Engineering Blueprint Schematic',
+        'Sumi-e Tech Scroll',
+        'Neumorphic Tech Schematic',
+        'Architectural Process Schematic',
+        'Risograph Educational Print',
+        'Analogue Brainstorming (Spiral Notebook)',
+        'CAD Engineering Blueprint',
+        'Retro-Travel / Passport UI',
+        'Chalkboard / Educational Sketch',
+        'Technical Schematic (Educational/Isometric)',
+        'Flat Lay Minimalist (Organized/Knolling)',
+        'Technical Blueprint Schematic',
+        'Minimalist Timeline Infographic'
+    ];
+    const prioritizedTitleIndex = new Map(prioritizedTitles.map((title, index) => [title, index]));
+    const bottomMatchers = [
+        title => title.includes('thermal'),
+        title => title.includes('pcb'),
+        title => title.includes('cyberpunk'),
+        title => title.includes('elegant'),
+        title => title.includes('kawaii'),
+        title => title.includes('retro pop'),
+        title => title.includes('retro hacker'),
+        title => title.includes('art deco'),
+        title => title.includes('cyber') && !title.includes('cyberpunk')
+    ];
+    const sortedStyles = infographicStyles
+        .filter(item => item.title !== 'Steampunk Nebula Explorer')
+        .map(item => {
+            if (!prioritizedTitleIndex.has(item.title)) {
+                return item;
+            }
+
+            const tags = item.tags.includes('clean') ? item.tags : ['clean', ...item.tags];
+            return { ...item, tags };
+        })
+        .map((item, originalIndex) => ({ item, originalIndex }))
+        .sort((a, b) => {
+            const aPriority = prioritizedTitleIndex.has(a.item.title)
+                ? prioritizedTitleIndex.get(a.item.title)
+                : Number.POSITIVE_INFINITY;
+            const bPriority = prioritizedTitleIndex.has(b.item.title)
+                ? prioritizedTitleIndex.get(b.item.title)
+                : Number.POSITIVE_INFINITY;
+            const aBottomRank = bottomMatchers.findIndex(matcher => matcher(a.item.title.toLowerCase()));
+            const bBottomRank = bottomMatchers.findIndex(matcher => matcher(b.item.title.toLowerCase()));
+
+            if (aPriority !== bPriority) {
+                return aPriority - bPriority;
+            }
+
+            if (aPriority === Number.POSITIVE_INFINITY && bPriority === Number.POSITIVE_INFINITY) {
+                const aIsBottom = aBottomRank !== -1;
+                const bIsBottom = bBottomRank !== -1;
+
+                if (aIsBottom !== bIsBottom) {
+                    return aIsBottom ? 1 : -1;
+                }
+
+                if (aIsBottom && bIsBottom && aBottomRank !== bBottomRank) {
+                    return aBottomRank - bBottomRank;
+                }
+            }
+
+            return a.originalIndex - b.originalIndex;
+        })
+        .map(entry => entry.item);
+
     // Collection labels mapping
     const collectionLabels = {
         'set1': 'Fantastic Set',
@@ -36,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderGallery() {
         galleryGrid.innerHTML = '';
         
-        infographicStyles.forEach((item, index) => {
+        sortedStyles.forEach((item, index) => {
             const shouldShow = currentFilter === 'all' || item.collection === currentFilter;
             const card = createGalleryCard(item, index);
             
@@ -213,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let visibleCount = 0;
         
         items.forEach((item, index) => {
-            const itemData = infographicStyles[index];
+            const itemData = sortedStyles[index];
             const matchesFilter = currentFilter === 'all' || 
                                 (currentFilter === 'set2' ? 
                                     (itemData.collection === 'set2' || itemData.collection === 'set1-extended' || itemData.collection === 'set2-extended') : 
@@ -265,17 +335,17 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (countElement) {
                 if (collection === 'all') {
-                    countElement.textContent = infographicStyles.length;
+                    countElement.textContent = sortedStyles.length;
                 } else if (collection === 'set2') {
                     // Combine set2 and extended sets for Practical Set
-                    const count = infographicStyles.filter(item => 
+                    const count = sortedStyles.filter(item => 
                         item.collection === 'set2' || 
                         item.collection === 'set1-extended' || 
                         item.collection === 'set2-extended'
                     ).length;
                     countElement.textContent = count;
                 } else {
-                    const count = infographicStyles.filter(item => item.collection === collection).length;
+                    const count = sortedStyles.filter(item => item.collection === collection).length;
                     countElement.textContent = count;
                 }
             }
@@ -447,5 +517,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log('%c🎨 NotebookLM Infographics Showcase', 'color: #6366f1; font-size: 20px; font-weight: bold;');
     console.log('%cCurated by Paolo Cortez', 'color: #ec4899; font-size: 14px;');
-    console.log(`%c${infographicStyles.length} design styles loaded successfully!`, 'color: #f59e0b; font-size: 12px;');
+    console.log(`%c${sortedStyles.length} design styles loaded successfully!`, 'color: #f59e0b; font-size: 12px;');
 });
