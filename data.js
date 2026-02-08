@@ -505,25 +505,50 @@ Instruction: Create a high-fidelity infographic matching the visual DNA of "Retr
         title: "Analogue Brainstorming (Spiral Notebook)",
         collection: "set2-extended",
         imageUrl: "20-Analogue Brainstorming (Spiral Notebook).png",
-        tags: ["Notebook", "Analog", "Brainstorming", "Hand-Written", "Organic"],
-        prompt: `Overall Tone: Casual, organic, creative, personal, and ideation-focused.\r
-\r
-Colors:\r
-- Background: #FFFEF2\r
-- Text: #1A1A1A\r
-- Accent: #4A90E2\r
-\r
-Image Style: Spiral notebook binding, ruled lines, margin notes, coffee stains, doodles, corrections.\r
-\r
-Texture: Paper grain, pen ink, highlighter streaks, eraser marks, finger smudges.\r
-\r
-Composition: Freeform note-taking layout with lists, mind maps, arrows, and underlines.\r
-\r
-Lighting: Natural indirect lighting with subtle paper texture shadows.\r
-\r
-Typography Style: Handwritten script or pen font (e.g., Caveat, Patrick Hand)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Analogue Brainstorming (Spiral Notebook)". Reference extracted metadata for exact aesthetic and structural adherence.`
+        tags: ["Hand-drawn", "Brainstorming", "Educational", "Analogue", "Sketch-note"],
+        prompt: `Overall Design Settings:
+
+Tone: "Authentic, intellectual, informal, creative, and instructional."
+
+Visual Identity:
+
+Background Color: "#F4F1EA"
+
+Text Color: "#0E2A5C"
+
+Accent Color: "#D12828"
+
+Secondary Colors: ["#C8AB83"]
+
+Image Style:
+
+Features: "Hand-drawn diagrams, spiral binding, coffee ring stains, arrows, stick figures, speech bubbles, stars for emphasis."
+
+Texture: "Matte paper grain, horizontal rule lines, ink bleed, liquid staining artifacts."
+
+Composition: "Top-down flowchart logic, loose organic grouping, utilization of white space for arrows and notes."
+
+Lighting: "Flat, bright, natural ambient light simulating a desktop scan."
+
+Line Quality: "Variable weight gel pen with natural jitter"
+
+Artifacts: "Coffee rings, spiral wire shadows on left margin"
+
+Structure: "Rule-lined paper background"
+
+Typography:
+
+Heading: "Handwritten Marker Bold"
+
+Body Font Style: "Casual Cursive/Print Hybrid"
+
+Highlighting Method: "Red ink underlining and boxing"
+
+Character Set: "Japanese Kanji/Kana mixed with symbols"
+
+Categories:
+
+Tags: ["Hand-drawn", "Brainstorming", "Educational", "Analogue", "Sketch-note"]`
     },
     {
         id: 21,
@@ -752,9 +777,32 @@ Features: "Intricate geometric borders, fan motifs, metallic gradients, cinemati
         title: "Technical Schematic (Educational/Isometric)",
         collection: "12-fabulous",
         imageUrl: "32-Technical Schematic (Educational-Isometric).png",
-        tags: ["Educational", "Isometric", "Technical", "Schematic", "Structured"],
-        prompt: `Tone: "Educational, authoritative, structured, precise, and diagrammatic" 
-Features: "Isometric 3D blocks, node-tree structures, stippled texture fills, dashed flow lines."`
+        tags: ["Educational", "Isometric", "Technical Schematic", "Clean UI", "Data Visualization"],
+        prompt: `Tone: "Educational, authoritative, structured, precise, and diagrammatic"
+
+Visual Identity:
+Background Color: "#FBFBFB"
+Text Color: "#222222"
+Accent Color: "#7FA1C3"
+Secondary Colors: ["#E6B89C", "#9CCEA6", "#CCCCCC", "#555555"]
+
+Image Style:
+Features: "Isometric 3D blocks, node-tree structures, stippled texture fills, dashed flow lines"
+Texture: "Matte textbook paper with subtle dithering or grain on filled shapes"
+Composition: "Two-column split: detailed text description on left, illustrative diagrams on right with horizontal dividers"
+Lighting: "Flat diagrammatic lighting, soft illustrative shading on 3D elements"
+Line Style: "Thin, clean, uniform width"
+Arrow Style: "Dashed curves with small triangular heads"
+Diagram Type: "Isometric component blocks and hierarchical tree nodes"
+
+Typography:
+Heading: "Bold Sans-Serif (Gothic)"
+Body Font: "Clean Sans-Serif, medium weight, optimized for legibility"
+Formatting: "Use of horizontal rules/lines to separate semantic sections"
+Emphasis: "Bold weights used for key concepts within body text"
+
+Categories:
+Tags: ["Educational", "Isometric", "Technical Schematic", "Clean UI", "Data Visualization"]`
     },
     {
         id: 33,
