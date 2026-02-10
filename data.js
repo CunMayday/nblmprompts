@@ -1,4 +1,4 @@
-﻿// Data for NotebookLM Infographic Styles
+// Data for NotebookLM Infographic Styles
 const infographicStyles = [
     // Set 1: 7x Fantastic NotebookLM Infographics Styles Set
     {
@@ -22,9 +22,7 @@ Composition: Central hero object (product) serving as the focal point, with radi
 
 Lighting: Flat illustrative lighting with high-contrast hard shadows and rim lighting to define volume.
 
-Typography Style: Heavy, condensed comic-book style display font (All-Caps), often featuring 3D extrusions or heavy strokes.
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Retro-Comic Action Blueprint". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: Heavy, condensed comic-book style display font (All-Caps), often featuring 3D extrusions or heavy strokes.`
     },
     {
         id: 2,
@@ -47,9 +45,7 @@ Composition: Centralized exploded artifact surrounded by modular data clusters a
 
 Lighting: Flat, high-contrast schematic illumination with neon-like line visibility
 
-Typography Style: Condensed Sans-Serif (e.g., DIN, Roboto Condensed)
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Engineering Blueprint Schematic". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: Condensed Sans-Serif (e.g., DIN, Roboto Condensed)`
     },
     {
         id: 3,
@@ -72,9 +68,7 @@ Composition: Central hero product with radial focus, flanked by symmetrical feat
 
 Lighting: Emissive bio-luminescent glow, high contrast neon against dark void, simulated infrared radiation
 
-Typography Style: Bold Sans-Serif Condensed Uppercase
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Thermal Insight Tech". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: Bold Sans-Serif Condensed Uppercase`
     },
     {
         id: 4,
@@ -97,9 +91,7 @@ Composition: Bilateral symmetry with a central focal point; branching curved con
 
 Lighting: Soft, diffuse ambient lighting creating gentle drop shadows (neumorphic effect) to lift key elements off the background.
 
-Typography Style: Condensed Sans-Serif (e.g., Roboto Condensed or Oswald), Uppercase, Bold
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Neumorphic Tech Schematic". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: Condensed Sans-Serif (e.g., Roboto Condensed or Oswald), Uppercase, Bold`
     },
     {
         id: 5,
@@ -122,9 +114,7 @@ Composition: Bilateral symmetry divided by a central vertical line; balanced two
 
 Lighting: Flat, ambient natural light consistent with paper media; depth created through ink density and shading layers rather than photorealistic lighting.
 
-Typography Style: Classical Serif (e.g., Garamond or Caslon Bold)
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Sumi-e Tech Scroll". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: Classical Serif (e.g., Garamond or Caslon Bold)`
     },
     {
         id: 6,
@@ -147,9 +137,7 @@ Composition: Central hero figure with radial data points connected by visual con
 
 Lighting: Cinematic warm rim lighting on the central figure contrasting with cool ambient starlight, specular highlights on metallic surfaces, soft shadows under paper elements.
 
-Typography Style: Vintage Condensed Slab Serif (Distressed)
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Steampunk Nebula Explorer". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: Vintage Condensed Slab Serif (Distressed)`
     },
     {
         id: 7,
@@ -172,9 +160,7 @@ Composition: Network-based layout with a central core component connected to per
 
 Lighting: Flat, uniform schematic lighting; reliance on color contrast rather than shadows to define depth.
 
-Typography Style: Industrial Monospace or DIN Condensed, Uppercase
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "PCB Schematic Architecture". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: Industrial Monospace or DIN Condensed, Uppercase`
     },
     {
         id: 8,
@@ -197,9 +183,7 @@ Composition: Central information plate screwed onto a dirty work surface, framed
 
 Lighting: Cool, diffuse overhead workshop lighting creating realistic soft drop shadows under 3D elements; subtle glowing effects on yellow LED/circuit indicators.
 
-Typography Style: DIN Condensed or Impact (Industrial Sans-Serif), Uppercase
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Industrial Workbench Schematic". Reference extracted metadata for exact aesthetic and structural adherence.`
+Typography Style: DIN Condensed or Impact (Industrial Sans-Serif), Uppercase`
     },
 
     // Set 2: 5 Practical Infographic Design Styles for NotebookLM (vol. 2)
@@ -372,8 +356,7 @@ Composition: Asymmetric freeform layout with handwritten notes, doodles, and mar
 Lighting: Flat illustration with subtle pencil shading, no dramatic lighting.\r
 \r
 Typography Style: Handwritten script or marker fonts (e.g., Permanent Marker, Indie Flower)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Educational Sketch-Note (Hand-Drawn)". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 15,
@@ -397,8 +380,7 @@ Composition: Symmetrical classical layout with ornate borders, central medallion
 Lighting: Soft diffuse lighting with warm golden hour tones, gentle vignetting.\r
 \r
 Typography Style: Classical Serif with ornamental capitals (e.g., Bodoni, Didot)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Elegant Rococo / Romantic". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 16,
@@ -422,8 +404,7 @@ Composition: Decorative cloud-based layout with cute mascot characters, speech b
 Lighting: Soft diffuse lighting with gentle highlights, pastel color grading.\r
 \r
 Typography Style: Rounded bubbly sans-serif (e.g., Quicksand, Baloo)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Kawaii / Pastel (Girly Styles)". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 17,
@@ -447,8 +428,7 @@ Composition: Isometric grid layout with elevated platforms, game-level progressi
 Lighting: Ambient occlusion on voxel edges, flat shading with stepped gradients.\r
 \r
 Typography Style: Pixel font or geometric bold sans-serif (e.g., Press Start 2P, Minecraft font)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Gamified / Voxel Art (Isometric)". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 18,
@@ -472,8 +452,7 @@ Composition: Asymmetric sci-fi HUD layout with corner brackets, data readouts, a
 Lighting: High-contrast neon backlighting, specular chrome highlights, volumetric fog.\r
 \r
 Typography Style: Futuristic geometric sans-serif (e.g., Orbitron, Exo)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Cyberpunk / Sci-Fi Interface". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 19,
@@ -497,8 +476,7 @@ Composition: Document layout with official stamps, date markers, stamp grids, an
 Lighting: Flat document scanner lighting with subtle aged yellowing.\r
 \r
 Typography Style: Typewriter or official document font (e.g., Courier, OCR-A)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Retro-Travel / Passport UI". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 20,
@@ -572,8 +550,7 @@ Composition: Multi-view engineering layout with front, side, and isometric views
 Lighting: Flat technical lighting with high contrast for visibility.\r
 \r
 Typography Style: Technical sans-serif or monospace (e.g., DIN, Roboto Mono)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "CAD Engineering Blueprint". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 22,
@@ -597,8 +574,7 @@ Composition: Organic teaching layout with diagrams, bullet points, and emphasize
 Lighting: Subtle overhead classroom lighting with soft shadows.\r
 \r
 Typography Style: Chalk hand-lettering style (e.g., Chalkduster, Kristen ITC)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Chalkboard / Educational Sketch". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 23,
@@ -622,8 +598,7 @@ Composition: Diorama-style layout with miniature scenes, depth of field, and sta
 Lighting: Studio lighting with soft shadows, realistic material reflections, shallow depth of field.\r
 \r
 Typography Style: Rounded friendly sans-serif (e.g., Nunito, Fredoka)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Claymation / Tactile 3D". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 24,
@@ -647,8 +622,7 @@ Composition: Bento box grid structure with varied card sizes, balanced whitespac
 Lighting: Soft ambient lighting with subtle elevation shadows (Material Design style).\r
 \r
 Typography Style: Modern sans-serif (e.g., SF Pro, Inter)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Bento Grid / Tech Minimalist". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 25,
@@ -672,8 +646,7 @@ Composition: Structured HUD layout with security status indicators, threat level
 Lighting: Cool blue accent lighting, subtle glow on active elements.\r
 \r
 Typography Style: Monospace or technical sans-serif (e.g., Source Code Pro, IBM Plex Mono)\r
-\r
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Cybersecurity / Secure HUD". Reference extracted metadata for exact aesthetic and structural adherence.`
+\r`
     },
     {
         id: 26,
@@ -809,9 +782,46 @@ Tags: ["Educational", "Isometric", "Technical Schematic", "Clean UI", "Data Visu
         title: "Flat Lay Minimalist (Organized/Knolling)",
         collection: "12-fabulous",
         imageUrl: "33-Flat Lay Minimalist (Organized-Knolling).png",
-        tags: ["Organized", "Knolling", "Minimalist", "Professional", "Balanced"],
-        prompt: `Tone: "Organized, Instructional, Calm, Balanced, Professional" 
-Features: "Photorealistic stationery items, 50/50 vertical background split, clean spatial arrangement (knolling)."`
+        tags: ["Knolling", "Split-Screen", "Pastel", "Flat Lay", "Minimalist"],
+        prompt: `Overall Design Settings:
+
+Tone: "Organized, Instructional, Calm, Balanced, Professional"
+
+Visual Identity:
+
+Background Color: "#F6D0D6"
+
+Text Color: "#2D2D2D"
+
+Accent Color: "#CBE4F0"
+
+Secondary Colors: ["#FDF6DA", "#FFFFFF", "#9EA4A9"]
+
+Image Style:
+
+Features: "Photorealistic stationery items, 50/50 vertical background split, clean spatial arrangement, tech and analog mixture"
+
+Texture: "Matte paper stock, smooth plastic device casings, metallic ruler sheen, soft natural shadows"
+
+Composition: "Top-down flat lay (knolling), symmetrical balance divided by a central vertical axis, directional flow from left to right"
+
+Lighting: "Soft diffuse overhead lighting, producing gentle and realistic drop shadows that ground the objects"
+
+Object Arrangement: "Grid-like, aligned, spaced evenly"
+
+Visual Metaphor: "Comparison (Problem vs Solution)"
+
+Typography:
+
+Heading: "Modern Sans-Serif (JP Gothic style), Medium Weight"
+
+Body: "Clean Sans-Serif, Regular Weight, Dark Grey"
+
+Labeling: "Contextual, placed directly on objects (sticky notes, screens)"
+
+Categories:
+
+Tags: ["Knolling", "Split-Screen", "Pastel", "Flat Lay", "Minimalist"]`
     },
     {
         id: 34,
@@ -888,9 +898,7 @@ Typography:
 Heading: "Heavy Edo-style Calligraphy (Kanji/Brush)"
 Body Font: "Legible Medium-Weight Serif"
 Caption Style: "Boxed text on parchment background"
-Orientation: "Mixed horizontal and vertical flow"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Ukiyo-e Kaiju Infographic". Reference extracted metadata for exact aesthetic and structural adherence.`
+Orientation: "Mixed horizontal and vertical flow"`
     },
     {
         id: 40,
@@ -918,9 +926,7 @@ Visual FX: "Onomatopoeic sound effects (BUM!, PRASK!) in jagged starbursts"
 Typography:
 Heading: "Hand-Drawn Block Display"
 Body Font: "Uppercase Hand-Lettered Comic Script"
-Style: "Distressed, bold, irregular alignment within speech balloons"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Vintage Action Comic". Reference extracted metadata for exact aesthetic and structural adherence.`
+Style: "Distressed, bold, irregular alignment within speech balloons"`
     },
     {
         id: 41,
@@ -949,9 +955,7 @@ Typography:
 Heading: "Monospace Pixelated (e.g., VT323, Fixedsys)"
 Body: "Monospace Terminal Font"
 Font Weights: "Regular, Bold for commands"
-Character Set: "Alphanumeric mixed with Katakana/Kanji"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Matrix CRT Terminal". Reference extracted metadata for exact aesthetic and structural adherence.`
+Character Set: "Alphanumeric mixed with Katakana/Kanji"`
     },
     {
         id: 42,
@@ -981,9 +985,7 @@ Typography:
 Heading: "Monospaced Pixel Font (VCR OSD Mono / Console)"
 Body Font: "System Monospace (Courier / Consolas)"
 Formatting: "Uppercase dominant, terminal command syntax"
-Weight: "Regular with faux-bold glow effects"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Red Alert Glitch HUD". Reference extracted metadata for exact aesthetic and structural adherence.`
+Weight: "Regular with faux-bold glow effects"`
     },
     {
         id: 43,
@@ -1013,9 +1015,7 @@ Typography:
 Heading: "Geometric Sans-Serif (e.g., DIN, Roboto, or Noto Sans JP)"
 Hierarchy: "Bold uppercase headers, smaller technical labels, bracketed English translations"
 Style: "Technical labeling, clean, high-readability against dark background"
-Alignment: "Centered main titles, left-aligned descriptive labels"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Technical Blueprint Schematic". Reference extracted metadata for exact aesthetic and structural adherence.`
+Alignment: "Centered main titles, left-aligned descriptive labels"`
     },
     {
         id: 44,
@@ -1046,16 +1046,14 @@ Typography:
 Heading: "Old Style Serif (Caslon or Garamond aesthetic)"
 Body: "Classic Italic Serif for Latin nomenclature and labels"
 Style: "Academic, Calligraphic, Pre-Digital Printing Press"
-Legibility: "High contrast ink against parchment"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Botanical Scientific Illustration". Reference extracted metadata for exact aesthetic and structural adherence.`
+Legibility: "High contrast ink against parchment"`
     },
     {
         id: 45,
-        title: "Art Nouveau Belle Époque",
+        title: "Art Nouveau Belle �poque",
         collection: "9-creative",
         imageUrl: "45-Alphonse Mucha, Nostalgic, Aristocratic, Educational, Elegant, Authoritative.png",
-        tags: ["Neo-Vintage", "Historical", "Belle Époque", "Lithograph", "Infographic"],
+        tags: ["Neo-Vintage", "Historical", "Belle �poque", "Lithograph", "Infographic"],
         prompt: `Overall Design Settings:
 Tone: "Alphonse Mucha, Nostalgic, Aristocratic, Educational, Elegant, Authoritative"
 
@@ -1078,9 +1076,7 @@ Typography:
 Heading: "Classic Victorian Serif (Heavy Weight)"
 Body Font: "Traditional Garamond-style Serif, slightly condensed"
 Styling: "All-caps for headers within ribbons, sentence case for descriptions, mixed italics for emphasis"
-Color Strategy: "Deep Sepia for body text, Terracotta Red for primary titles to drive hierarchy"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Art Nouveau Belle Époque". Reference extracted metadata for exact aesthetic and structural adherence.`
+Color Strategy: "Deep Sepia for body text, Terracotta Red for primary titles to drive hierarchy"`
     },
     {
         id: 46,
@@ -1109,9 +1105,7 @@ Iconography: "Filled silhouette style with internal negative space details"
 Typography:
 Heading: "Heavy Geometric Sans-Serif (Japanese Gothic style)"
 Body: "Medium weight rounded sans-serif, legible at small sizes"
-Rendering: "Slight blur or ink-spread effect to match the analog paper texture"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Risograph Zine Educational". Reference extracted metadata for exact aesthetic and structural adherence.`
+Rendering: "Slight blur or ink-spread effect to match the analog paper texture"`
     },
     {
         id: 47,
@@ -1139,9 +1133,7 @@ Flow: "S-Curve central axis guiding the eye downwards"
 Typography:
 Heading: "Tall Condensed Sans-Serif (e.g., Bebas Neue or Oswald)"
 Body Font: "Clean Geometric Sans-Serif (e.g., Open Sans or Roboto)"
-Date Styling: "Bold, Accent Color, Sans-Serif"
-
-Instruction: Create a high-fidelity infographic matching the visual DNA of "Minimalist Timeline Infographic". Reference extracted metadata for exact aesthetic and structural adherence.`
+Date Styling: "Bold, Accent Color, Sans-Serif"`
     }
 ];
 
